@@ -37,7 +37,7 @@ element = WebDriverWait(browser, 20).until(EC.visibility_of_element_located((By.
 element.send_keys("Math")
 element.send_keys(Keys.ENTER)
 
-#browser.execute_script("document.querySelector('input[id=hobbies-checkbox-1]').click()")
+
 
 time.sleep(10)
 browser.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[7]/div[2]/div[1]').click()
